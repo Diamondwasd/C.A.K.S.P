@@ -1,0 +1,75 @@
+
+<htmL>
+    <head>
+        
+        <title>KSP2 TWR calculator</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="HubStyle.css">
+    </head>
+        <body>
+
+
+            <nav>
+                <div class="container">
+                     <h1>C.A.K.S.P.</h1>
+                      <div class="menu">
+                          <a href="index.html" clas="is-active">Home</a>
+                          <a href="#">Calculators</a>
+                          <a href="#">About</a>
+                          <a href="#">Contacts</a>
+                          </div>
+                          
+                          <button class="hamburger">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                          </button>
+                </div>
+                </nav>
+
+            
+        <form name="formcalc">
+        <h2 align="center">KSP 1/2 thrust to weight ratio calculator</h2>
+            <div class="content0">
+                <label>Mass of your vehicle </label> 
+                <input type="number" id="Mass" value="" placeholder="T">
+
+                <br>
+            
+                <div class="content">
+                    <label>Thrust of your vehicle</label>
+                    <input type="number" id="Thrust" value="" placeholder="kN">
+            </div>
+
+                <br>
+            <div class="content1">
+              <label>Destination</label>
+                <input type="button" value="Moho" onclick="sumValuesMo()">
+                <input type="button" value="Eve" onclick="sumValuesEv()">
+                <input type="button" value="Gilly" onclick="sumValuesG()">
+                <input type="button" value="Kerbin" onclick="sumValuesK()">
+                <input type="button" value="Mun" onclick="sumValuesMu()">
+                <input type="button" value="Minmus" onclick="sumValuesMi()">
+                <input type="button" value="Duna" onclick="sumValuesDu()">
+                <input type="button" value="Ike" onclick="sumValuesI()">
+                <input type="button" value="Dres" onclick="sumValuesD()">
+                <input type="button" value="Laythe" onclick="sumValuesL()">
+                <input type="button" value="Vall" onclick="sumValuesV()">
+                <input type="button" value="Tylo" onclick="sumValuesT()">
+                <input type="button" value="Bop" onclick="sumValuesB()">
+                <input type="button" value="Pol" onclick="sumValuesP()">
+                <input type="button" value="Eeloo" onclick="sumValuesE()">
+            </div>
+            <br>
+           
+                <div class="content2">
+                <label2>Your TWR</label2>
+                <input type="number" disabled id="TWRres" value="" placeholder="TWR">
+            </div>
+
+
+
+    </form>
+        <script src="Calculation.js"></script>
+        </body>
+</htmL>

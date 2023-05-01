@@ -1,0 +1,57 @@
+body{
+    background-color: #020412;
+    color:azure;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    size: 100vh;
+}
+
+
+
+input{
+    font-size: 20px;
+    background-color:#020412;
+    border-color: whitesmoke;
+    border-style:dotted;
+    color:whitesmoke;
+    font-family: monospace;
+    outline:none;
+    margin:4px;
+    padding:4px;
+
+    
+}
+
+ label{
+
+    color:#00377e;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+label2{
+
+    color:rgb(85, 0, 0);
+    font-family: monospace;
+    font-size: 40px;
+}
+
+label3{
+    color:rgb(129, 52, 0);
+    font-family: monospace;
+    font-size: 40px;
+}
+
+h2{
+    font-family: monospace;
+    margin-bottom:80px ;
+    font-size:50px;
+    color:#51037e;
+}
+
+h5{
+    font-family: monospace;
+    font-size:20px;
+    color:#c45d09;
+}
