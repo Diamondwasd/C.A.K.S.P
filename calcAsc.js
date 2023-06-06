@@ -98,6 +98,26 @@ function calcI()
   document.formcalc.costAsc.value=dvf;
 }
 
+function calcD()
+{
+    var dv1,dv2,TargetOrbit,dvf;
+  var radius = 138000;
+  var OrbitalV = 394.569009;
+  var Param = 2.1484489*10000000000;
+  var rots = 24.916;     
+
+  TargetOrbit=Number((document.formcalc.TORHeight.value)*1000) + radius;
+  dv1= OrbitalV * (Math.sqrt((2*TargetOrbit)/(radius+TargetOrbit))-1);
+  console.log(dv1);
+  dv2=Math.sqrt((Param)/(TargetOrbit))*(1-(Math.sqrt((2*radius)/(radius+TargetOrbit))));
+  console.log(dv2);
+
+  dvf= (OrbitalV - rots + dv1) +dv2;
+  dvf=Math.round(dvf);
+  console.log(dvf);
+  document.formcalc.costAsc.value=dvf;
+}
+
 function calcV()
 {
     var dv1,dv2,TargetOrbit,res;

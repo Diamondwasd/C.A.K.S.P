@@ -1,0 +1,136 @@
+h7 {
+    position:fixed;
+    bottom: 120px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(95, 81, 254);
+  }
+
+  h11 {
+    position:fixed;
+    bottom: 95px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  h18 {
+    position:fixed;
+    bottom: 95px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92);
+    }
+
+  h19 {
+    position:fixed;
+    bottom: 95px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(95, 81, 254);
+  }
+
+  h20 {
+    position:fixed;
+    bottom: 70px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+  }
+
+  h21 {
+    position:fixed;
+    bottom: 70px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(95, 81, 254);
+  }
+
+  h22 {
+    position:fixed;
+    bottom: 45px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+  }
+
+  h23 {
+    position:fixed;
+    bottom: 45px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(95, 81, 254);
+  }
+
+  h12 {
+    position:fixed;
+    bottom: 45px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+  }
+
+  h13 {
+    position:fixed;
+    bottom: 45px;
+    left: 320px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(195, 181, 255);
+  }
+
+h9{
+    position:fixed;
+    bottom: 120px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+}
+h10{
+    position:fixed;
+    bottom: 95px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+}
+
+  .box{
+    position:fixed;
+    bottom:0;
+    left:290px;
+    right:290px;
+    background-color:rgb(19, 19, 19) ;
+    padding:16px 32px;
+    height: 200px;
+    border: 1px solid rgb(92, 92, 92);
+    border-bottom:none;
+
+}
+
+  h8{
+    position:fixed;
+    bottom: 170px;
+    left: 300px;
+    font-size: 22px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+  }
+
+  h14{
+    position:fixed;
+    bottom: 170px;
+    left: 1560px;
+    font-size: 22px;
+    font-family: monospace;
+    color:rgb(92, 92, 92)
+  }

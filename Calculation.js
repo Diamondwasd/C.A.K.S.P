@@ -13,6 +13,16 @@ function sumValuesE()
     res=num2/(num1 *1.68732);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesP()
@@ -23,6 +33,16 @@ function sumValuesP()
     res=num2/(num1 * 0.37278);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesB()
@@ -33,6 +53,16 @@ function sumValuesB()
     res=num2/(num1 * 0.5885);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesT()
@@ -43,6 +73,16 @@ function sumValuesT()
     res=num2/(num1 * 7.848);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesV()
@@ -53,6 +93,16 @@ function sumValuesV()
     res=num2/(num1 * 2.30535);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesD()
@@ -63,6 +113,16 @@ function sumValuesD()
     res=num2/(num1 * 1.12815);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesI()
@@ -73,6 +133,16 @@ function sumValuesI()
     res=num2/(num1 * 1.09872);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesMi()
@@ -83,6 +153,16 @@ function sumValuesMi()
     res=num2/(num1 * 0.4905);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesMu()
@@ -93,6 +173,16 @@ function sumValuesMu()
     res=num2/(num1 * 1.6268);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesG()
@@ -103,6 +193,16 @@ function sumValuesG()
     res=num2/(num1 * 0.04905);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesMo()
@@ -113,6 +213,16 @@ function sumValuesMo()
     res=num2/(num1 * 2.69775);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 //Atmosphere
@@ -121,10 +231,20 @@ function sumValuesEv()
 {
     var num1, num2, res;
     num1=Number(document.formcalc.Mass.value) * 1000;
-    num2=Number((document.formcalc.Thrust.value) * 1000) / 5;
+    num2=Number((document.formcalc.Thrust.value) * 1000) / 1.7;
     res=num2/(num1 * 16.6861);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesK()
@@ -135,26 +255,56 @@ function sumValuesK()
     res=num2/(num1 * 9.81);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesDu()
 {
     var num1, num2, res;
-    num1=Number(document.formcalc.Mass.value) * 1000;
-    num2=Number((document.formcalc.Thrust.value) * 1000) * 0.066667;
+    num1=Number((document.formcalc.Mass.value) * 1000);
+    num2=Number((document.formcalc.Thrust.value) * 1000) * 0.6;
     res=num2/(num1 * 2.943);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 function sumValuesL()
 {
     var num1, num2, res;
     num1=Number(document.formcalc.Mass.value) * 1000;
-    num2=Number((document.formcalc.Thrust.value) * 1000) * 0.6;
-    res=num2/(num1 * 7.848);
+    num2=Number((document.formcalc.Thrust.value) * 1000) * 0.9;
+    res=num2/(num1 * 7.85);
     res=res.toFixed(3);
     document.formcalc.TWRres.value=res;
+
+    if (res< 1) {
+        document.getElementById("Liftoff").innerHTML = "You will not be able to liftoff";
+        Liftoff.style.color = "#9c1212"
+    
+      }
+      if (res> 1) {
+        document.getElementById("Liftoff").innerHTML = "You will be able to lifotff";
+        Liftoff.style.color = "green"
+      }
 }
 
 

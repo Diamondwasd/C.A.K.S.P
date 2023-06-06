@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Orbital Period calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="HubStyle.css">
+        <link rel="stylesheet" href="feedbacckO.css">
+        <body>
+               
+            <nav>
+                <div class="container">
+                     <h1>C.A.K.S.P.</h1>
+                      <div class="menu">
+                          <a href="index.html" clas="is-active">Home</a>
+                          <a href="#">Help</a>
+                          <a href="#">Math</a>
+                          <a href="#">About</a>
+                          </div>
+                          
+                          <button class="hamburger">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                          </button>
+                </div>
+                </nav>
+
+                <form name="formcalc">
+                    <h2 align="center">KSP 1/2 Orbital Period calculator</h2>
+                        <div class="content20">
+                            <label>Apoapsis</label> 
+                            <input type="number" id="Apoaps" value="" placeholder="m">
+                            </div>
+                            <div class="content21">
+                                <label>Periapsis</label> 
+                                <input type="number" id="Periaps" value="" placeholder="m">
+                                </div>
+                                <br>
+
+                <div class="content11">
+                    <label>Celestial Body</label>
+                      <input type="button" value="Moho" onclick="calcMo()">
+                      <input type="button" value="Eve" onclick="calcEv()">
+                      <input type="button" value="Gilly" onclick="calcG()">
+                      <input type="button" value="Kerbin" onclick="calcK()">
+                      <input type="button" value="Mun" onclick="calcMu()">
+                      <input type="button" value="Minmus" onclick="calcMi()">
+                      <input type="button" value="Duna" onclick="calcDu()">
+                      <input type="button" value="Ike" onclick="calcI()">
+                      <input type="button" value="Dres" onclick="calcD()">
+                      <input type="button" value="Jool" onclick="calcJ()">
+                      <input type="button" value="Laythe" onclick="calcL()">
+                      <input type="button" value="Vall" onclick="calcV()">
+                      <input type="button" value="Tylo" onclick="calcT()">
+                      <input type="button" value="Bop" onclick="calcB()">
+                      <input type="button" value="Pol" onclick="calcP()">
+                      <input type="button" value="Eeloo" onclick="calcE()">
+                  </div>
+
+                  <br>
+                  <div class="content22">
+                  <label2>Orbital Period</label2>
+                  <input type="number" disabled id="PERres" value="" placeholder="min">
+              </div>
+
+              <h16 align="center">Press "c" to open/close the console</h16>
+
+
+              <div id="box"class="box">
+                <h8 id="console">console</h8>
+                <h9 id="Com">></h9>
+                <h7 id="seconds"></h7>
+                <h18 id="Com">></h18>
+                <h19 id="min"></h19>
+                <h20 id="Com">></h20>
+                <h21 id="hours"></h21>
+                <h22 id="Com">></h22>
+                <h23 id="days"></h23>
+            </div>
+
+
+            </form>
+            <script src="calcPer.js"></script>
+            <script src="console.js"></script>
+            
+        </body>
+        <h33>Copyright 2023 wasd. All rights reserved.</h33>
+    </head>
+</html>

@@ -1,0 +1,88 @@
+
+<html>
+    <head>
+        <title>hoverslam claculator</title>
+
+        <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="HubStyle.css">
+          <link rel="stylesheet" href="feedbacckO.css">
+
+        <body>
+           
+            <nav>
+                <div class="container">
+                     <h1>C.A.K.S.P.</h1>
+                      <div class="menu">
+                          <a href="index.html" clas="is-active">Home</a>
+                          <a href="#">Help</a>
+                          <a href="#">Math</a>
+                          <a href="#">About</a>
+                          </div>
+                          
+                          <button class="hamburger">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                          </button>
+                </div>
+                </nav>
+
+
+                <form name="formcalc">
+                    <h2 align="center">KSP 1/2 Hoverslam calculator</h2>
+                        <div class="content26">
+                            <label>velocity of you vehicle</label> 
+                            <input type="number" id="velo" value="" placeholder="m/s">
+
+                            <div class="content27">
+                                <label>Mass of your vehicle</label>
+                                <input type="number" id="Mass" value="" placeholder="t">
+                            </div>
+
+                            <div class="content28">
+                                <label>Thrust of your vehicle</label>
+                                <input type="number" id="Thrust" value="" placeholder="kN">
+                            </div>
+
+                            <div class="content29">
+                                <label>Celestial Body</label>
+                                  <input type="button" value="Moho" onclick="calcMo()">
+                                  <input type="button" value="Gilly" onclick="calcG()">
+                                  <input type="button" value="Mun" onclick="calcMun()">
+                                  <input type="button" value="Minmus" onclick="calcMi()">
+                                  <input type="button" value="Ike" onclick="calcI()">
+                                  <input type="button" value="Dres" onclick="calcD()">
+                                  <input type="button" value="Vall" onclick="calcV()">
+                                  <input type="button" value="Tylo" onclick="calcT()">
+                                  <input type="button" value="Bop" onclick="calcB()">
+                                  <input type="button" value="Pol" onclick="calcP()">
+                                  <input type="button" value="Eeloo" onclick="calcE()">
+                              </div>
+
+                              <div class="content25">
+                                <label2>Burn start height</label2>
+                                <input type="number" disabled id="Hres" value="" placeholder="m">
+                            </div>
+
+                    <h16 align="center">Press "c" to open/close the console</h16>
+                    
+
+                <div id="box"class="box">
+                    <h8 id="console">console</h8>
+                    <h14 id="console">0.0.2</h6>
+                    <h9 id="Com">></h9>
+                    <h7 id="Time"></h7>
+                    <h10 id="Com">></h10>
+                    <h11 id="Decel"></h11>
+                    <h12 id="Com">/</h12>
+                    <h13 id="Msg">This is a Alpha-Version so the values might not be perfect</h13>
+                </div>
+            </form>
+                
+            <script src="calchHS.js"></script>
+                <script src="console.js"></script>
+                
+        </body>
+        <h33>Copyright 2023 wasd. All rights reserved.</h33>
+    </head>
+</html>

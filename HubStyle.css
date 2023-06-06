@@ -111,6 +111,12 @@ transition:0.4s;
     }
 }
 
-h5{
+/* Copyright msg */
+h33{
+    position:fixed;
+    bottom: 10px;
     color:var(--light);
+    font-family: monospace;
+    color:rgb(53, 53, 53);
+    font-size: 10px;
 }
